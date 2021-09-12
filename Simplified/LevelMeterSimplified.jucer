@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="KaJXrv" name="LevelMeterSimplified" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="1" displaySplashScreen="1"
+              jucerFormatVersion="1" companyName="TiltAudio">
+  <MAINGROUP id="e0qxhS" name="LevelMeterSimplified">
+    <GROUP id="{241EDEA0-6F04-909F-EE98-E3ADF586445B}" name="Assets">
+      <FILE id="ndTkWS" name="MeterGrill.png" compile="0" resource="1" file="Assets/MeterGrill.png"/>
+    </GROUP>
+    <GROUP id="{29485221-F00F-C08B-72E2-A899A906AE28}" name="Source">
+      <GROUP id="{C8792E6A-399F-1A3E-DFF0-6406A0881958}" name="Component">
+        <FILE id="LOEjHp" name="HorizontalMeter.h" compile="0" resource="0"
+              file="Source/Component/HorizontalMeter.h"/>
+        <FILE id="h9XMu8" name="VerticalDiscreteMeter.h" compile="0" resource="0"
+              file="Source/Component/VerticalDiscreteMeter.h"/>
+        <FILE id="WxRYVA" name="VerticalGradientMeter.h" compile="0" resource="0"
+              file="Source/Component/VerticalGradientMeter.h"/>
+      </GROUP>
+      <FILE id="CgKdoj" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="dSdybC" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mMEkPd" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="b45CHg" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="LevelMeter"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="LevelMeter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
