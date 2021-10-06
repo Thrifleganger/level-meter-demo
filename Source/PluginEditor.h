@@ -18,10 +18,10 @@ public:
     void resized() override;
 
 private:
-    LevelMeterAudioProcessor& audioProcessor;    
-    AudioProcessorValueTreeState::SliderAttachment leftSliderAttachment, rightSliderAttachment, rmsPeriodAttachment;
-
+    LevelMeterAudioProcessor& audioProcessor;  
+    
     Slider leftSlider, rightSlider, rmsPeriodSlider;
+    AudioProcessorValueTreeState::SliderAttachment leftSliderAttachment, rightSliderAttachment, rmsPeriodAttachment;
     ToggleButton enableSmoothingButton;
     AudioProcessorValueTreeState::ButtonAttachment enableSmoothingAttachment;
 	
